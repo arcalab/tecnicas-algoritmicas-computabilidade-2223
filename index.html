@@ -1,0 +1,393 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Técnicas Algorítmicas e Computabilidade 2022/23</title>
+
+  <meta name="description" content=" Técnicas Algorítmicas e Computabilidade  22/23">
+  <meta name="keywords" content=" Técnicas Algorítmicas e Computabilidade ">
+  <meta name="author" content="Ana Neri">
+
+  <!-- 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> -->
+  <link href="extra/css/bootstrap-bw.min.css" rel="stylesheet" media="screen">
+  <link href="extra/css/main.css" rel="stylesheet">
+
+  <!-- see more examples in http://bootswatch.com/paper/# -->
+</head>
+
+<body>
+
+
+  <div class="navbar navbar-default navbar-fixed-top">
+    <!-- navbar-fixed-top -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <!--     AC -->
+      </a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav" id="myTab">
+        <li class="active"><a href="#">Início</a></li>
+        <li><a href="#programa">Programa</a></li>
+        <li><a href="#material">Sumário</a></li>
+        <li><a href="#biblio">Bibliografia</a></li>
+        <li><a href="#funcionamento">Funcionamento</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div class="splash">
+    <h2 class="splash-title">Técnicas Algorítmicas e Computabilidade 2022-23</h2>
+    <h4 class="splash-subtitle">Licenciatura em Ciência de Dados</h4>
+    <h4 class="splash-subtitle">Departamento de Informática, Universidade do Minho</h4>
+  </div>
+
+
+  <div id="myTabContent" class="container">
+    <div class="bs-component">
+
+
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~-->
+      <h2>Resultados de aprendizagem</h2>
+
+      <p>
+        Ao completar o curso com sucesso os alunos devem ser capazes de:
+      <p>
+
+      <ul>
+        <li>
+          Dividir um problema em subproblemas mais simples.
+        </li>
+        <li>
+          Definir tipos de dados para a representação dos dados e
+           resultados de um dado problema.  
+        </li>
+        <li>
+          Analisar e desenvolver algoritmos manipulando diversos tipos de 
+          estruturas discretas, nomeadamente, ordens, árvores e grafos; 
+        </li>
+        <li>
+          Determinar a complexidade assimptótica de um algoritmo iterativo ou recursivo. 
+        </li>
+        <li>
+          Pressupões reconhecer e utilizar estratégias algorítmicas fundamentais. 
+        </li>
+        <li>
+          Aplicar a noção de computabilidade (máquina de Turing, 
+          função computável) e problemas associados; 
+        </li>
+        <li>
+          Resolver problemas NP-completos e alguns algoritmos aproximados para a sua resolução.
+        </li>
+      </ul>
+      </p>
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~-->
+      <div id="programa"></div>
+      <h2>Programa</h2>
+
+      <ul>
+        <li> 
+          Análise de complexidade de algoritmos: modelo de complexidade assimptótica;
+           estratégias algorítmicas; recorrências; análise de caso médio e amortizada; 
+           casos de estudo.
+        </li>
+        <li> 
+          Algoritmos e computabilidade. Autómatos e máquinas de Turing; 
+          Recursividade e função computável; tese de ChurchTuring;
+           Indecibilidade; completude NP
+        </li>
+        <li>
+          Estruturas discretas, algoritmos base associados e sua utilização
+           na representação de dados e conhecimento: árvores AVL, tabelas de dispersão,
+            "heaps". Implementação eficiente de "buffers" e dicionários. 
+        </li>
+        <li>
+          Algoritmos fundamentais sobre grafos; estratégia algorítmica "greedy"
+           e programação dinâmica. 
+        </li>
+        <li>
+          Introdução às classes de problemas P, NP, e NP-completo.
+        </li>
+      </ul>
+
+
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~-->
+      <div id="material"></div>
+      <h2>Sumários (2022-23)</h2>
+
+      <h5>Aulas T</h5>
+
+<!--
+     <table style="width:100%">
+        <tr>
+          <td><strong>Sep 19 (09:00 - 11:00)</strong></td>
+          <td>Introduction to the course and its dynamics (<a href="intro.pdf">slides</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Sep 26 (09:00 - 11:00)</strong></td>
+          <td>A first glimpse of quantum algorithmics: superposition, quantum interference,
+            and Deutsch's algorithm
+            (<a href="introAlg.pdf">slides</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 03 (09:00 - 11:00)</strong></td>
+          <td>Continuation of the previous lecture. Basic aspects of entanglement
+            (<a href="introEnt.pdf">slides</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 10 (09:00 - 11:00)</strong></td>
+          <td> Continuation of the previous lecture. Quantum teleportation
+            (<a href="introEnt.pdf">slides</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 17 (09:00 - 11:00)</strong></td>
+          <td> The phase kickback effect. Bernstein-Vazirani's algorithm and Deutsch-Josza's algorithm
+            (<a href="expSep.pdf">slides</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 24 (11:00 - 13:00)</strong></td>
+          <td> Simon's algorithm
+            (<a href="expSep.pdf">slides</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Nov 07 (09:00-11:00)</strong></td>
+          <td> Grover's algorithm (<a href="grover.pdf">slides</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Nov 14 (09:00-11:00)</strong></td>
+          <td> Grover's algorithm from a geometrical perspective. Grover's algorithm
+                  with multiple solutions (<a href="grover.pdf">slides</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Nov 21 (09:00-11:00)</strong></td>
+          <td> The basics of the Quantum Fourier Transform. Introduction to Quantum Phase
+                  Estimation (<a href="qpe.pdf">slides</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Nov 28 (09:00-11:00)</strong></td>
+          <td> Continuation of the previous lecture. Performance of Quantum Phase Estimation.
+                  Introduction to the problem of order-finding
+                  (<a href="qpf.pdf">slides</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Dez 05 (09:00-11:00)</strong></td>
+          <td> Continuation of the previous lecture 
+                  (<a href="qpf.pdf">slides</a>)</td>
+        </tr>
+
+
+
+
+
+      </table>
+-->
+      <h5> Aulas TP </h5>
+<!--
+      <table style="width:100%">
+        <tr>
+          <td><strong>Sep 19 (11:00 - 13:00)</strong></td>
+          <td>Algebra of quantum operations (<a href="LectureNotesTP\01 - Algebra of quantum operations\class01.pdf"
+              target="_blank" rel="noopener noreferrer">Exercises 1</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Sep 26 (11:00 - 13:00)</strong></td>
+          <td>Quantum circuit formalism; Quantum projects (<a
+              href="LectureNotesTP\02 - Quantum circuit formalism\class02.pdf" target="_blank"
+              rel="noopener noreferrer"> Exercises 2</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 3 (11:00-13:00)</strong></td>
+          <td>Quantum Operations and Simulations in Qiskit (<a href="LectureNotesTP\03 - Qiskit Intro\class03.ipynb"
+              target="_blank" rel="noopener noreferrer"> Exercises 3</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 10 (11:00-13:00)</strong></td>
+          <td>IBM Q and Superdense Coding (<a href="LectureNotesTP\04 - IBMQ and Dense Coding\class04.ipynb"
+              target="_blank" rel="noopener noreferrer">Exercises 4</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 24 (09:00-11:00)</strong></td>
+          <td>The Deutsch-Jozsa Algorithm; Simulate Real Devices(<a
+              href="LectureNotesTP/05 - Deutsch-Jozsa/class05.ipynb" target="_blank" rel="noopener noreferrer">Exercises
+              5</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 31 (09:00-11:00)</strong></td>
+          <td>Bernstein-Vazirani Algorithm; Measurement Errors Mitigation (<a
+              href="LectureNotesTP/06 - Bernstein-Vazirani/class06.ipynb" target="_blank"
+              rel="noopener noreferrer">Exercises 6</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Oct 31 (11:00-13:00)</strong></td>
+          <td>Simon's Algorithm; C<sup>n</sup>NOT decomposition (<a href="LectureNotesTP/07 - Simon/class07.ipynb"
+              target="_blank" rel="noopener noreferrer">Exercises 7</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Nov 07 (11:00-13:00)</strong></td>
+          <td>Grover's Algorithm (<a href="LectureNotesTP/08 - Grover/class08.zip" target="_blank"
+              rel="noopener noreferrer">Exercises 8</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Nov 14 (11:00-13:00)</strong></td>
+          <td>Grover's Algorithm - Part 2 (<a href="LectureNotesTP/09 - Grover2/class09.ipynb" target="_blank" 
+              rel="noopener noreferrer">Exercises 9</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Nov 21 (11:00-13:00) </strong></td>
+          <td>QFT and QPE (<a href="LectureNotesTP/10 - QFT + QPE/class10.ipynb" target="_blank"
+            rel="noopener noreferrer">Exercises 10</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Nov 28 (11:00-13:00)</strong></td>
+          <td>QPE + QPF (<a href="LectureNotesTP/11 - QPE + QPF/class11.ipynb" target="_blank"
+            rel="noopener noreferrer">Exercises 11</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Dez 05 (11:00-13:00)</strong></td>
+          <td> 3rd Assessment 
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Dez 12 (09:00-11:00)</strong></td>
+          <td>Shor's Algorithm (<a href="LectureNotesTP/12 - Shor/class12.ipynb" target="_blank" 
+            rel="noopener noreferrer">Exercises 12</a>)</td>
+        </tr>
+        <tr>
+          <td><strong>Dez 12 (11:00-13:00)</strong></td>
+          <td>Quantum Repetition Code (<a href="LectureNotesTP/13 - Repetition codes/class13.ipynb" target="_blank" 
+            rel="noopener noreferrer">Exercises 13</a>)</td>
+        </tr>
+
+      </table>
+    -->
+      <!--~~~~~~~~~~~~~~~~~~~~~~~-->
+      <div id="biblio"></div>
+      <h2>Bibliografia</h2>
+      <ul>
+        <li>
+          Kernigham, B.W., Ritchie, D.M. (1988)  <strong> The C programming language</strong>. 
+           2nd edition. Prentice Hall Software Series. 
+        </li>
+        <li>
+          Lewis, H., Papadimitriou, C. (1998) <strong>Elements of the Theory of Computation</strong>. 
+          Prentice-Hall. 
+        </li>
+        <li>
+          Jenkins, T., Stephenson, B. (2013) <strong>Fundamentals of Discrete Math for Computer Science</strong>. 
+          Springer. 
+        </li>
+        <li>
+          Cormen, T.H., Leiserson, C.E., Rivest, R.L., Stein, C. (2009) <strong> Introduction to Algorithms</strong>. 
+          Third Edition. MIT Press
+        </li>
+        <li>
+          Sedgewick, R. (2001) <strong> Algorithms in C, part 5: Graph Algorithms </strong> .
+          Third edition. Addison-Wesley.
+        </li>
+      </ul>
+
+
+
+      <!--
+<h5> Some extra references on quantum algorithms
+  </font><font color="red">    <strong>NEW</strong></font></h5>
+
+<ul>
+
+
+<li> <font color="red">Algorithms:</font> <a href="https://arxiv.org/abs/1804.03719">Quantum algorithms implementations for beginners</a> a recent, systematic survey paper, a bit terse, but with implementation schemes in <a href="https://qiskit.org/">Qiskit</a>. Peter Shor <a href="https://cs.brynmawr.edu/Courses/cs380/fall2012/Shor2003.pdf">paper</a> on the scarcity of quantum algorithms.
+
+ <li> <font color="red">Search:</font> An interesting review on <a href="https://arxiv.org/abs/1602.02730">quantum search</a> algorithms. 
+
+  <li> <font color="red">NISQ and Variational Methods:</font><a href="https://arxiv.org/abs/1801.00862">John Preskill 2017</a> paper on current NISQ technology --- very important reading to complement the stuff covered in the lectures. On variational methods read <a href="https://arxiv.org/abs/2012.09265">this</a> and <a href="https://arxiv.org/abs/1509.04279">that</a>.
+
+<li> <font color="red">Recent papers on specific algorithms:</font>  <a href="https://epubs.siam.org/doi/pdf/10.1137/050643684?casa_token=5EeEItTlxRwAAAAA:3ovDyb85Aus3CWbPSv88aei-llagQt24awjSA2KNeGnkC5lSjOlYM4-HwpxnT3HbxIz5iZKqNg">the triangle problems</a>; <a href="https://arxiv.org/abs/1704.06774">tree size estimation</a>; 
+  <a href="https://arxiv.org/abs/1806.06893">risk analysis</a>;
+  <a href="https://arxiv.org/abs/1201.4780">quantum walks</a> and their 
+  <a href="https://arxiv.org/abs/0706.0304">implementation</a>.
+
+<li> <font color="red">Quantum programming languages:</font> <a href="https://www.mathstat.dal.ca/~selinger/papers/papers/qpl.pdf">here</a>; <a href="http://www.cs.nott.ac.uk/~psztxa/publ/qml.pdf">there</a>, and <a href="https://www.iitis.pl/~miszczak/files/papers/miszczak11models.pdf">there</a>.
+</ul>
+-->
+
+
+      <div id="funcionamento"></div>
+      <h2>Funcionamento</h2>
+
+
+      <h5><a name="Docentes"></a> Docente </h5>
+      <ul>
+        <li>
+          <a href="https://anac.nery.name/">Ana Neri</a>
+        </li>
+      </ul>
+
+      <h5><a name="Avaliação"></a> Avaliação </h5>
+      <ul>
+        <li>
+          
+        </li>
+      </ul>
+      <h5><a name="Contacts"></a> Contact </h5>
+
+      <ul>
+        <li>
+          Dúvidas - Ana: Qua, 10:00-12:00
+        </li>
+        <li>
+          Email - Ana: ana dot i dot neri at inesctec dot pt
+        </li>
+      </ul>
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~-->
+    </div> <!-- bs-component -->
+  </div> <!-- container -->
+
+  <!-- FOOTERS -->
+
+  <div class="panel-footer" id="wrapper-footer">
+    <div id="footer">
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="extra/js/bootstrap.min.js"></script>
+  <!-- <script src="../assets/js/bootswatch.js"></script> -->
+
+  <script>
+
+    $(document).on('click', '.navbar-collapse.in', function (e) {
+      if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
+        $(this).collapse('hide');
+      }
+    });
+
+    // post-process the tweeter feed.
+    (function ($) {
+      window.setTimeout(function () {
+        $(".twitter-timeline").contents().find(".e-entry-title").attr("style", "color: #666666; font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;");
+      }, 1000);
+
+    })(jQuery);
+
+  </script>
+
+</body>
+
+</html>
